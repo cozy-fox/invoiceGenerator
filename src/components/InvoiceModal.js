@@ -37,7 +37,7 @@ class InvoiceModal extends React.Component {
           <div id="invoiceCapture">
             <div className="d-flex flex-row justify-content-between align-items-start bg-light w-100 p-4">
               <div className="w-100">
-                <h4 className="fw-bold my-2">{this.props.info.billFrom||'John Uberbacher'}</h4>
+                <h4 className="fw-bold my-2">{this.props.info.billFrom||'Peter Paker'}</h4>
                 <h6 className="fw-bold text-secondary mb-1">
                   Invoice #: {this.props.info.invoiceNumber||''}
                 </h6>
